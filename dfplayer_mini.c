@@ -4,7 +4,7 @@
 
 LOG_MODULE_REGISTER(dfplayer_mini, CONFIG_DFPLAYER_MINI_LOG_LEVEL);
 
-dfplayer_mini_init()
+void dfplayer_mini_init()
 {
 	LOG_INF("dfplayer mini");
 }
