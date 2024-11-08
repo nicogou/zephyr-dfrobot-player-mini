@@ -1,0 +1,8 @@
+config DFPLAYER_MINI
+	bool "Zephyr port of DFRobot's Player Mini Arduino library"
+	help
+	  This option enables the Test Zephyr module library.
+
+module = DFPLAYER_MINI
+module-str = DFPLAYER_MINI
+source "subsys/logging/Kconfig.template.log_config"
